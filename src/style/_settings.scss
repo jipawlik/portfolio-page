@@ -1,0 +1,31 @@
+//font vars--------------------------------------------------
+$font-logo: "League Script", cursive;
+$font-text: "Noto Sans KR", sans-serif;
+$font-heading: "Noto Serif TC", serif;
+//color vars-------------------------------------------------
+
+$color-font: #141414;
+$color-light: #14141478;
+
+$color-gold: #b79c6c;
+$color-mint: #006e2e;
+
+//mixins-----------------------------------------------------
+
+@mixin notebook {
+    @media (min-width: 1025px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: 480px) {
+        @content;
+    }
+}
