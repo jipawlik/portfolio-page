@@ -1,5 +1,5 @@
 import Jumbo from "../assets/jumbo.JPG";
-import { Link } from "react-router-dom";
+import Hands from "../assets/hands.JPG";
 import Reachme from "./Reachme";
 
 const Homepage = () => {
@@ -36,7 +36,17 @@ const Homepage = () => {
           </p>
         </div>
       </article>
-      <Reachme />
+      <div className="homepage__heading">
+        <div className="homepage__jumbo2">
+          <img src={Hands} alt="jumbo pic" />
+        </div>
+      </div>
+      <Reachme
+        linkToFirst={"/contact"}
+        textFirst="Send me a message"
+        linkToSecond={"/projects"}
+        textSecond="View my projects"
+      />
     </section>
   );
 };

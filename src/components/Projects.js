@@ -52,7 +52,12 @@ const Projects = () => {
           </ExternalLink>
         </div>
       </article>
-      <Reachme />
+      <Reachme
+        linkToFirst={"/contact"}
+        textFirst="Send me a message"
+        linkToSecond={"/"}
+        textSecond="Back to homepage"
+      />
     </section>
   );
 };
