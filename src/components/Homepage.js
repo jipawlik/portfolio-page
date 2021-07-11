@@ -18,13 +18,14 @@ const Homepage = () => {
         <div className="about__bio">
           <h2>About</h2>
           <p>
-            For the last ten years I had been working as an orchestral musician,
-            music teacher, barkeeper, Instagram administrator and fine artist.
-            Lastly I've decided to choose a path as a web developer to combine
+            I'm currently freelancing as a Web Developer, which is how I combine
             my love for aesthetics, design, organizing, technology and team
-            work. Since October 2020 I've been intensively mastering my skills
-            to reach a requiered level to work professionally as a web
-            developer.
+            work. I'm actively developing my skills and keeping in touch with
+            modern solutions. Outside of work I'm a musician (I used to played
+            double-bass professionally) and a fine artist (watercolor).
+            Currently I'm looking for a full time job as a web developer as well
+            as freelance commisions. If you have questions or would like to get
+            in touch with me, don't hesitate to send me a message.
           </p>
           <h3>Skills</h3>
           <p>
