@@ -1,5 +1,6 @@
 import Jumbo from "../assets/jumbo.JPG";
 import { Link } from "react-router-dom";
+import Reachme from "./Reachme";
 
 const Homepage = () => {
   return (
@@ -35,12 +36,7 @@ const Homepage = () => {
           </p>
         </div>
       </article>
-      <div className="reachme">
-        <h4>Interested in working with me?</h4>
-        <Link to={"/contact"} className="reachme__link">
-          Send me a message
-        </Link>
-      </div>
+      <Reachme />
     </section>
   );
 };

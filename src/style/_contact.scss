@@ -1,0 +1,101 @@
+@import "settings.scss";
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__heading {
+        width: 100%;
+        padding-top: 100px;
+        font-family: $font-heading;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        border-bottom: 0.5px solid $color-light;
+        @include mobile {
+            padding-top: 50px;
+        }
+
+        p {
+            padding: 20px 40px 20px 40px;
+        }
+        .text {
+            width: 60%;
+            align-self: center;
+            @include mobile {
+                width: 80%;
+                text-align: center;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+.form {
+    height: calc(100vh - 270px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 50px;
+    @include mobile {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    @include tablet {
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    &__name {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        @include mobile {
+            width: 100%;
+        }
+        input {
+            height: 50px;
+            width: 400px;
+            padding: 7px;
+            border: 1px solid $color-light;
+            @include mobile {
+                width: 100%;
+            }
+        }
+        textarea {
+            height: 100px;
+            width: 400px;
+            margin-bottom: 30px;
+            padding: 7px;
+            border: 1px solid $color-light;
+            @include mobile {
+                width: 100%;
+            }
+        }
+    }
+    &__label {
+        margin: 10px 0;
+    }
+    &__button {
+        width: 100px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $color-font;
+        font-family: $font-heading;
+        color: white;
+        font-size: 1rem;
+        outline: none;
+        border: 1px solid $color-light;
+        transition: 250ms;
+        &:hover {
+            color: $color-font;
+            background-color: white;
+            border: 1px solid $color-font;
+        }
+    }
+}
