@@ -26,9 +26,6 @@
     }
     .nav-item {
         color: $color-font;
-        // &:hover {
-        //     color: $color-mint;
-        // }
     }
     .nav-items {
         .nav-item {
@@ -45,8 +42,8 @@
                 font-size: 0.7rem;
             }
             @include mobile {
-                padding-left: 10px;
-                font-size: 0.5rem;
+                padding: 0 10px;
+                font-size: 0.7rem;
             }
         }
     }

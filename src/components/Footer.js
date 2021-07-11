@@ -25,6 +25,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faInstagram} className="link-icon" />
         </ExternalLink>
       </span>
+      <span className="photo-info">Photography &copy; Martyna Behrendt</span>
     </footer>
   );
 };

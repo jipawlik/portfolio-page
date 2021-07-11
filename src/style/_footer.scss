@@ -30,3 +30,12 @@
         }
     }
 }
+.photo-info {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    opacity: 0.7;
+    padding-top: 10px;
+    @include mobile {
+        font-size: 0.5rem;
+    }
+}
