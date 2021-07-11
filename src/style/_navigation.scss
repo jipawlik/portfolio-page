@@ -44,7 +44,10 @@
             @include mobile {
                 text-transform: uppercase;
                 padding: 0 5px;
-                font-size: 0.7rem;
+                font-size: 0.9rem;
+                &:nth-child(3) {
+                    padding-right: 0;
+                }
             }
         }
     }

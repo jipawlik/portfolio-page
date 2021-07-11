@@ -6,6 +6,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @include mobile {
+        height: 230px;
+    }
     &__copyright {
         text-transform: uppercase;
         font-size: 0.9rem;
