@@ -21,7 +21,7 @@ const Homepage = () => {
             I'm currently freelancing as a Web Developer, which is how I combine
             my love for aesthetics, design, organizing, technology and team
             work. I'm actively developing my skills and keeping in touch with
-            modern solutions. Outside of work I'm a musician (I used to played
+            modern solutions. Outside of work I'm a musician (I used to play
             double-bass professionally) and a fine artist (watercolor).
             Currently I'm looking for a full time job as a web developer as well
             as freelance commisions. If you have questions or would like to get
