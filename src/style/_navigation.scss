@@ -44,7 +44,7 @@
     .nav-items {
         display: flex;
         @include tablet {
-            top: -1500%;
+            top: -100%;
             right: 0;
             position: absolute;
             width: 100vw;
@@ -55,7 +55,7 @@
             align-items: center;
             background-color: white;
             z-index: -10;
-            transition: 650ms;
+            transition: 850ms;
         }
         .nav-item {
             padding-left: 40px;
@@ -67,14 +67,6 @@
             @include tablet {
                 padding-left: 20px;
                 font-size: 0.7rem;
-            }
-            @include mobile {
-                text-transform: uppercase;
-                padding: 0 5px;
-                font-size: 0.9rem;
-                &:nth-child(3) {
-                    padding-right: 0;
-                }
             }
         }
     }
@@ -92,14 +84,13 @@
             align-items: center;
             background-color: white;
             z-index: 9;
-
-            transition: 650ms;
+            transition: 850ms;
         }
         .nav-item {
             font-family: $font-heading;
             font-weight: bold;
-            font-size: 1.2rem;
-            transition: 250ms;
+            font-size: 2.2rem;
+            transition: 850ms;
             padding: 5px 0;
         }
     }
