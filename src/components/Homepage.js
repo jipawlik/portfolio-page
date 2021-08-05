@@ -18,22 +18,22 @@ const Homepage = () => {
         <div className="about__bio">
           <h2>About</h2>
           <p>
-            I'm currently freelancing as a Web Developer, which is how I combine
-            my love for aesthetics, design, organizing, technology and team
-            work. I'm actively developing my skills and keeping in touch with
-            modern solutions. Outside of work I'm a musician (I used to play
-            double-bass professionally) and a fine artist (watercolor).
-            Currently I'm looking for a full time job as a web developer as well
-            as freelance commisions. If you have questions or would like to get
-            in touch with me, don't hesitate to send me a message.
+            Front End developement combines my love for aesthetics, design,
+            organizing, technology and team work, that's why I have chosen that
+            as a professional path. I'm actively developing my skills and
+            keeping in touch with modern solutions. Outside of work I'm a
+            musician (I used to play double-bass professionally) and a fine
+            artist (watercolor). I'm currently a Front End Developer at Vantik.
+            If you have questions or would like to get in touch with me, don't
+            hesitate to send me a message.
           </p>
           <h3>Skills</h3>
           <p>
-            As a junior Front End Developer I'm building responsive, interactive
+            As a Front End Developer I'm building responsive, interactive
             websites using HTML, CSS, Sass, JavaScript as well as React. I'm
-            familiar with Webpack, Gulp, NPM, Scrum and other technologies
-            improving the work flow. I communicate in English, German and Polish
-            on a daily basis.
+            currently learning Vue. I'm familiar with Webpack, Gulp, NPM, Scrum
+            and other technologies improving the work flow. I communicate in
+            English, German and Polish on a daily basis.
           </p>
         </div>
       </article>
