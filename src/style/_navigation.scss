@@ -11,6 +11,13 @@
         height: 50px;
         padding: 0 20px;
     }
+    .nav-burger {
+        display: none;
+        @include tablet {
+            display: flex;
+            z-index: 10;
+        }
+    }
 
     .logo {
         font-family: $font-logo;
@@ -27,16 +34,35 @@
     .nav-item {
         color: $color-font;
     }
+    .nav-link {
+        color: $color-font;
+        &:hover {
+            color: $color-mint;
+        }
+    }
     .nav-items {
+        display: flex;
+        @include tablet {
+            top: -1500%;
+            right: 0;
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            z-index: -10;
+            transition: 450ms;
+        }
         .nav-item {
             padding-left: 40px;
             font-family: $font-heading;
             font-weight: bold;
             font-size: 1.2rem;
             transition: 250ms;
-            &:hover {
-                color: $color-mint;
-            }
+
             @include tablet {
                 padding-left: 20px;
                 font-size: 0.7rem;
@@ -49,6 +75,31 @@
                     padding-right: 0;
                 }
             }
+        }
+    }
+    .burger-menu {
+        display: none;
+        @include tablet {
+            top: 0;
+            right: 0;
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            z-index: 9;
+
+            transition: 450ms;
+        }
+        .nav-item {
+            font-family: $font-heading;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: 250ms;
+            padding: 5px 0;
         }
     }
 }
