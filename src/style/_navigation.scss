@@ -36,6 +36,7 @@
     }
     .nav-link {
         color: $color-font;
+        transition: 250ms;
         &:hover {
             color: $color-mint;
         }
@@ -54,7 +55,7 @@
             align-items: center;
             background-color: white;
             z-index: -10;
-            transition: 450ms;
+            transition: 650ms;
         }
         .nav-item {
             padding-left: 40px;
@@ -92,7 +93,7 @@
             background-color: white;
             z-index: 9;
 
-            transition: 450ms;
+            transition: 650ms;
         }
         .nav-item {
             font-family: $font-heading;
@@ -102,4 +103,7 @@
             padding: 5px 0;
         }
     }
+}
+.selected {
+    color: $color-mint;
 }

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { Fade as Hamburger } from "hamburger-react";
 import { useState } from "react";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
@@ -31,19 +31,34 @@ const Nav = () => {
       </div>
       <ul className={isOpen ? "burger-menu" : "nav-items"}>
         <li className="nav-item">
-          <Link to={"/"} className="nav-link" onClick={hideMenu}>
+          <NavLink
+            to={"/"}
+            className="nav-link"
+            onClick={hideMenu}
+            activeClassName="selected"
+          >
             Home
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to={"/projects"} className="nav-link" onClick={hideMenu}>
+          <NavLink
+            to={"/projects"}
+            className="nav-link"
+            onClick={hideMenu}
+            activeClassName="selected"
+          >
             Projects
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to={"/contact"} className="nav-link" onClick={hideMenu}>
+          <NavLink
+            to={"/contact"}
+            className="nav-link"
+            onClick={hideMenu}
+            activeClassName="selected"
+          >
             Contact
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>
